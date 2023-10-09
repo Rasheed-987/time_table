@@ -1,0 +1,53 @@
+.toggle-button {
+  cursor: pointer;
+  position: relative;
+  top: -7px;
+  margin: 16px;
+  background-color:black ;
+  color: antiquewhite;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  .new{
+    font-weight: bold;
+  }
+  
+.heading{
+    text-align: center;
+    margin:36px;
+} 
+table,th,td,tr {
+    border: 2px solid black; /* Sets a 1px solid black border for the table, th, and td elements. */
+    padding: 34px;
+    font-family: 'Roboto', sans-serif;
+    }
+  table{
+    border-collapse:collapse;
+    width: 100%;
+
+  }
+.main{
+  font-size: 18px;
+  font-weight: bold;
+}
+ .parent{
+    background-color:  rgb(243, 243, 243) ;
+    width: auto;
+    height: 750px;
+ }
+ footer{
+    text-align: center;
+    position: relative;
+    top: 85px;
+ }
+.unique{
+text-align: center;
+}
